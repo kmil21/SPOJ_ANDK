@@ -84,7 +84,7 @@ public class FourFragment extends Fragment{
         {
             for (int k = 0; k < 2 * n; k++)
             {
-               StrPinwheel += (tab[i][ k]);
+               StrPinwheel += (tab[i][ k]) +" ";
             }
             StrPinwheel+= "\n";
         }
